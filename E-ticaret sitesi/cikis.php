@@ -1,5 +1,5 @@
 <?php
 session_start();
-session_destroy();  //oturumu kapat/öldür
+session_destroy(); 
 header('location: giris.php');
 ?>
